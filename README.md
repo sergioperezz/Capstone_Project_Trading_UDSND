@@ -3,7 +3,7 @@ Repository for the Capstone project in the Data Science Nanodegree of Udacity
 ## Project motivation
 
 The project shows a process to create an web app where the user can introduce a range dates and some tickers, and the algorithm tries to predict the prices of the Adj close of those tickers in the range.
-- 1. load finance data from yahoo finance.
+- 1. Load finance data from yahoo finance.
 - 2. Make a Transformation process.
 - 3. Clean the data.
 - 4. Create a model SVR.
