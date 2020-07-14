@@ -1,0 +1,53 @@
+<!--<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">-->
+
+<style>
+table, th, td {
+  border: px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+</style>
+
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <hr />
+    <h4 class="text-center">MESSAGE</h4>
+    <p class="text-center"><i>{{query}}</i></p>
+{% endblock %}
+
+{% block content %}
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left:50%; 
+  margin-right:auto;
+}
+</style>
+
+<div class=page>
+    <h1 class="text-center">Result</h1>
+
+			{% for table in tables %}
+						{{ table|safe }}
+			{% endfor %}
+
+
+    </div>
+</div>
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <img src="{{ user_image }}" alt="User Image">
+</body>
+
+{% endblock %}
