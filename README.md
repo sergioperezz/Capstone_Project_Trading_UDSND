@@ -6,7 +6,7 @@ The project shows a process to create an web app where the user can introduce a 
 - 1. Load finance data from yahoo finance.
 - 2. Make a Transformation process.
 - 3. Clean the data.
-- 4. Create a model SVR.
+- 4. Create a SVR model.
 - 5. Evaluate the model with the data.
 - 6. Make a prediction on new data.
 - 7. Plot the result with Flask.
