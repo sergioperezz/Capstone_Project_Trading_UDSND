@@ -3,10 +3,10 @@ Repository for the Capstone project in the Data Science Nanodegree of Udacity
 ## Project motivation
 
 The project shows a process to create an web app where the user can introduce a range dates and some tickers, and the algorithm tries to predict the prices of the Adj close of those tickers in the range.
-- 1. load finance data from yahoo finance.
+- 1. Load finance data from yahoo finance.
 - 2. Make a Transformation process.
 - 3. Clean the data.
-- 4. Create a model SVR.
+- 4. Create a SVR model.
 - 5. Evaluate the model with the data.
 - 6. Make a prediction on new data.
 - 7. Plot the result with Flask.
@@ -19,7 +19,8 @@ The project shows a process to create an web app where the user can introduce a 
 | |- go.html  # classification result page of web app
 |- run.py  # Flask file that runs app
 |- functions.py  # file where are all the functions that make the forecast
-
+|- static |-plot_photo # folder to store the plot
+-Capture # folder with captures of the app
 - README.md
 ```
 
@@ -58,6 +59,6 @@ Project developed under MIT licensing.
 [sarahleejane](sarahleejane.github.io)
 ## Capture
 
-![alt text](https://github.com/sergioperezz/Disaster-response-Pipeline-UND/blob/master/captures/front4.PNG)
-![alt text](https://github.com/sergioperezz/Disaster-response-Pipeline-UND/blob/master/captures/front2.PNG)
-![alt text](https://github.com/sergioperezz/Disaster-response-Pipeline-UND/blob/master/captures/front3.PNG)
+![alt text](https://github.com/sergioperezz/Capstone_Project_Trading_UDSND/blob/master/Capture/Overview.PNG)
+![alt text](https://github.com/sergioperezz/Capstone_Project_Trading_UDSND/blob/master/Capture/Result1.PNG)
+![alt text](https://github.com/sergioperezz/Capstone_Project_Trading_UDSND/blob/master/Capture/plot.PNG)
