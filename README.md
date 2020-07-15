@@ -22,6 +22,7 @@ The project shows a process to create an web app where the user can introduce a 
 |- static |-plot_photo # folder to store the plot
 -Capture # folder with captures of the app
 - README.md
+- Trading_Capstone_Project_Rubric.ipynb # Jupyter with Rubrics
 ```
 
 ## Installation
